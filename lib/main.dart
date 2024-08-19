@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guia_viagens/app/pages/apresentacao1.dart';
 import 'app/pages/login.dart';
 
 void main() {
@@ -26,6 +27,7 @@ class Viajar extends StatelessWidget {
       ),
       routes: {
         '/login':(context) => Login(),
+        '/apresentacao1':(context) => Apresentacao1(),
       },
       initialRoute: '/login', // Definindo a rota inicial
     );
